@@ -1,6 +1,6 @@
 # Clothing Store
 
-• This is a simple project created for ordering and managing baby products using the MVC1 architecture.
+• This is a simple project created for ordering and managing clothes using the MVC1 architecture.
   
 • There are three roles:
   
