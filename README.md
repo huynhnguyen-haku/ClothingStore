@@ -4,11 +4,11 @@
   
 • There are three roles:
   
-  	- Admin: Manager accounts.
-	
-	- Seller: Manager products.
+- Admin: Manager accounts.
+  
+- Seller: Manager products.
 
-	- User: Manages cart and orders products.
+- User: Manages cart and orders products.
 
 ## Technologies
 
