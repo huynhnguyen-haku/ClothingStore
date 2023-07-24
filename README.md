@@ -1,16 +1,52 @@
-# DemoWebApp
+# Clothing Store
 
-• Đây là demo đơn giản về web shop bán quần áo bằng Java. Gồm 3 role: 
-- Admin: Có chức năng thêm, xóa, sửa tài khoản của trang web
-- Seller: Bán hàng, có thể thêm, xóa, sửa sản phẩm
-- User: Người mua hàng, có thể thêm sản phẩm vào giỏ và thanh toán
+• This is a simple project created for ordering and managing baby products using the MVC1 architecture.
+  
+• There are three roles:
+  
+  	- Admin: Manager accounts.
+	
+	- Seller: Manager products.
 
-• File SQLDatabse.sql là của SQL Server2019, chứa script để tạo bảng. Trước khi chạy script thì phải tạo 1 database tên WebApp.
+	- User: Manages cart and orders products.
 
-• Chú ý: portNumber trong class DBConnect.java là 1500, khác với cổng mặc định là 1433. Có thể sẽ phải thay đổi số cổng trong class này hoặc đổi trong phần config của SQL Server.
+## Technologies
 
-• Project được code và build trên Netbean IDE 8.2, phiên bản Java 1.8.0_45.
+*JSP/Servlet/JDBC, SQL Server*
 
-• Các library đã được import trong project : sqljdbc4.2.0 (dùng để kết nối Java với SQL Server) và jst1.2 (dùng để load dữ liệu từ SQL lên các trang JSP).
+## Usage
 
+For the user scenario, you can create an account and log in to this web application.
+
+For the admin scenario, please log in using one of the following accounts: admin1|admin1, admin2|admin2
+
+For the seller scenario, please log in using one of the following accounts: seller1|seller1, seller2|seller2
+
+Note:
+
+  • The SQLDatabse.sql file is from SQL Server2019, containing the script to create the database named WebApp.
+
+  • The portNumber in the DBConnect.java class is default port of 1433. It may be necessary to change the port number in this class or change it in the SQL Server config.
+
+  • The project is coded and built on Netbean IDE 8.2, Java version 1.8.0_45.
+
+  • The libraries have been imported in the project: sqljdbc4.2.0 (used to connect Java with SQL Server) and jst1.2 (used to load data from SQL into JSP pages).
+
+## Screenshots
+
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/adsc1.png)
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/adsc2.png)
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/adsc3.png)
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/slsc1.png)
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/slsc2.png)
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/slsc3.png)
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/ussc1.png)
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/ussc2.png)
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/ussc3.png)
+![screenshot](https://github.com/huynhnguyen-haku/ClothingStore/blob/main/screenshots/ussc4.png)
+## License
+
+### Connect me via huynhnguyen1532@gmail.com
+
+#### Copyright &#169; 2023 huynhnguyen-haku
 
